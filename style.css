@@ -1,0 +1,61 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbb1b3;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(206, 237, 255, 0.877);
+  height: 90px;  
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  letter-spacing: 3px;
+  padding-right: 60%;
+}
+
+.collapse-navbar-collapse{
+    float: right;
+   
+}
+ 
+ body   
+  {  
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: Lucida  ;  
+    font-weight: bold;
+  }  
+ 
+   a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+
+   }
+nav{
+    float: left;
+}
+#mydiv > .btn-default {
+    background:transparent;
+  }
+  
